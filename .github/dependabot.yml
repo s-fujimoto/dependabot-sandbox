@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/python"
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 10
+    versioning-strategy: lockfile-only
+
+  - package-ecosystem: npm
+    directory: "/nodejs"
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 10
+    versioning-strategy: lockfile-only
+
