@@ -10,5 +10,5 @@ updates:
     directory: "/nodejs"
     schedule:
       interval: daily
-    versioning-strategy: widen
+    versioning-strategy: auto
 
