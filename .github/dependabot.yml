@@ -6,7 +6,7 @@ updates:
       interval: daily
       timezone: Asia/Tokyo
     open-pull-requests-limit: 10
-    versioning-strategy: lockfile-only
+    versioning-strategy: auto
 
   - package-ecosystem: npm
     directory: "/nodejs"
@@ -14,5 +14,5 @@ updates:
       interval: daily
       timezone: Asia/Tokyo
     open-pull-requests-limit: 10
-    versioning-strategy: lockfile-only
+    versioning-strategy: auto
 
