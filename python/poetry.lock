@@ -67,6 +67,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "requests"
+version = "2.0.0"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "werkzeug"
 version = "2.2.2"
 description = "The comprehensive WSGI web application library."
@@ -83,7 +91,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "734ba9999aa43558e8413f6abd0062db4e3f253ae65a279a0971b0f5c363009e"
+content-hash = "9dc95f3fbfae764b0b26474f354f7f7779585114c63ee4cb223aae889b401985"
 
 [metadata.files]
 click = [
@@ -98,4 +106,5 @@ flask = []
 itsdangerous = []
 jinja2 = []
 markupsafe = []
+requests = []
 werkzeug = []
